@@ -29,7 +29,12 @@ public class ConfigDemoServlet extends HttpServlet {
         String name = getServletConfig().getInitParameter("name");
         String studentId = getServletConfig().getInitParameter("studentId");
         PrintWriter writer = response.getWriter();
-        writer.println("<br/>name:" + name);
-        writer.println("<br/>studentId:" + studentId);
+        writer.println("Name:" + name);
+        writer.println("<StudentID:" + studentId);
     }
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+    }
+
 }
