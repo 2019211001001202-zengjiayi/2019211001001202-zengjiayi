@@ -1,4 +1,5 @@
 package com.zengjiayi.week6.demo;
+
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
@@ -9,7 +10,6 @@ public class SearchServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String txt=new String(request.getParameter("txt").getBytes("iso-8859-1"),"gbk");
-        //The solution to Chinese garbled code found on the Internet does not work
         String search=request.getParameter("search");
         if("".equals(txt.trim()))
             response.sendRedirect("index.jsp");
