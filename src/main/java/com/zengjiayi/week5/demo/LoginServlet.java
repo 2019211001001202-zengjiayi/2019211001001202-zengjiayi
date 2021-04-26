@@ -31,22 +31,40 @@ public class LoginServlet extends HttpServlet {
         //PrintWriter out = response.getWriter();
         String username = request.getParameter("username");
         String password = request.getParameter("password");
-       /* String sql="select id,username,password,email,gender,birthdate from usertable where username='"+username;
-try{
-    ResultSet rs =con.createStatement().executeQuery(sql);
-}*/
 
         UserDao userDao = new UserDao();
         try {
             User user = userDao.findByUsernamePassword(con, username, password);
 
             if (user != null) {
-                request.setAttribute("user", user);
+                //week 8 code  we use cookie
+                //Cookie c=new Cookie("sessionid",""+user.getId());
+                //c.setMaxAge(10*60); //10 min
+                //response.addCookie(c);
+
+                String rememberMe=request.getParameter("rememberMe");
+                if(rememberMe!=null && rememberMe.equals("1")){
+                    Cookie usernameCookie=new Cookie("cUsername",user.getUsername());
+                    Cookie passwordCookie=new Cookie("cPassword",user.getPassword());
+                    Cookie rememberMeCookie=new Cookie("cRememberMe",rememberMe);
+
+                    usernameCookie.setMaxAge(5); //60*60*24*15 =15 days
+                    passwordCookie.setMaxAge(5);
+                    rememberMeCookie.setMaxAge(5);
+                    response.addCookie(usernameCookie);
+                    response.addCookie(passwordCookie);
+                    response.addCookie(rememberMeCookie);
+                }
+
+                HttpSession session= request.getSession();
+                System.out.println("session id -->"+session.getId());
+                session.setMaxInactiveInterval(10);
+
+                session.setAttribute("user",user);
                 request.getRequestDispatcher("WEB-INF/views/userInfo.jsp").forward(request, response);
             } else {
-                request.setAttribute("message", "Username or Password Error!!!");
+                request.setAttribute("message", "Username or Password Error");
                 request.getRequestDispatcher("WEB-INF/views/login.jsp").forward(request, response);
-
             }
 
         } catch (SQLException | ServletException throwables) {
@@ -68,12 +86,11 @@ try{
                 request.setAttribute("password",rs.getString("password"));
                 request.setAttribute("email",rs.getString("email"));
                 request.setAttribute("gender",rs.getString("gender"));
-                request.setAttribute("birthdate",rs.getString("birthdate"));
+                request.setAttribute("birthdate",rs.getDate("birthdate"));
                 request.getRequestDispatcher("userInfo.jsp").forward(request,response);
             }else {
                 request.setAttribute("message","Username or password Error!!!");
                 request.getRequestDispatcher("login.jsp").forward(request,response);
-                ;
             }
         } catch (SQLException throwables) {
             throwables.printStackTrace();

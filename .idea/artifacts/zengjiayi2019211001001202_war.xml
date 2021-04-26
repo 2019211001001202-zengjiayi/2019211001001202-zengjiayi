@@ -1,14 +1,14 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="2019211001001202-zengjiayi:war">
+  <artifact type="war" name="zengjiayi2019211001001202:war">
     <output-path>$PROJECT_DIR$/target</output-path>
     <properties id="maven-jee-properties">
       <options>
-        <module>2019211001001202-zengjiayi</module>
+        <module>zengjiayi2019211001001202</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="archive" name="zengjiayi2019211001001202-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="2019211001001202-zengjiayi:war exploded" />
+      <element id="artifact" artifact-name="zengjiayi2019211001001202:war exploded" />
     </root>
   </artifact>
 </component>

@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="2019211001001202-zengjiayi" />
+        <module name="zengjiayi2019211001001202" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="2019211001001202-zengjiayi" target="1.8" />
+      <module name="zengjiayi2019211001001202" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

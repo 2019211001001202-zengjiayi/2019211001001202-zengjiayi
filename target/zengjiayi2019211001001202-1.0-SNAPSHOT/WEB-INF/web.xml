@@ -82,6 +82,14 @@
         <servlet-name>RedirectServlet</servlet-name>
         <servlet-class>com.zengjiayi.week6.demo.RedirectServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.zengjiayi.controller.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <servlet-class>com.zengjiayi.controller.UpdateUserServlet</servlet-class>
+    </servlet>
     <!--<servlet>
         <servlet-name>HomeServlet</servlet-name>
         <servlet-class>com.zengjiayi.controller.HomeServlet</servlet-class>

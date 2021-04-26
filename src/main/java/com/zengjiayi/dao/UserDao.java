@@ -22,6 +22,7 @@ public class UserDao implements IUserDao {
         pstmt.setString(5,user.getGender());
         pstmt.setString(5,user.getBirthdate());
 
+
         int rs = pstmt.executeUpdate();
         if(rs==1) return true;
         return false;
@@ -34,13 +35,13 @@ public class UserDao implements IUserDao {
         PreparedStatement pstmt =con.prepareStatement(sql);
         pstmt.setInt(1,user.getId());
         int rs = pstmt.executeUpdate();
-        return 0;
+        return rs;
         //delete     where id =?
     }
 
     @Override
     public int updateUser(Connection con, User user) throws SQLException {
-        String sql="UPDATE usertable SET username=?,password=?,email=?,gender=?,birthday=? WHERE id=?;";
+        String sql="UPDATE usertable SET username=?,password=?,email=?,gender=?,birthdate=? WHERE id=?;";
         PreparedStatement pstmt =con.prepareStatement(sql);
         pstmt.setString(1,user.getUsername());
         pstmt.setString(2,user.getPassword());
@@ -184,6 +185,7 @@ public class UserDao implements IUserDao {
 
         String sql="select * from usertable where birthday=?";
         PreparedStatement ps=con.prepareStatement(sql);
+
         ResultSet rs=ps.executeQuery();
         User user=new User();
         while(rs.next()) {
