@@ -9,22 +9,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d584ed3e-a238-46e8-8c19-276e2101e7bf" name="默认变更列表" comment="HW-Week 9 Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" />
+    <list default="true" id="d584ed3e-a238-46e8-8c19-276e2101e7bf" name="默认变更列表" comment="HW-Week 11 Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/zengjiayi2019211001001202_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/zengjiayi2019211001001202_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zengjiayi/controller/AdminHomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zengjiayi/controller/AdminHomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zengjiayi/week3/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zengjiayi/week3/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/zengjiayi2019211001001202/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/zengjiayi2019211001001202/HelloServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/classes/com/example/zengjiayi2019211001001202/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/classes/com/example/zengjiayi2019211001001202/HelloServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zengjiayi2019211001001202.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zengjiayi/controller/ProductListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zengjiayi/controller/ProductListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zengjiayi/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zengjiayi/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/productList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zengjiayi/week3/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zengjiayi/week3/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/classes/com/zengjiayi/week3/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/classes/com/zengjiayi/week3/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/admin/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/admin/productList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/admin/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/admin/userList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/productDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/productDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/shop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zengjiayi2019211001001202.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zengjiayi2019211001001202.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +69,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/images/cart" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,6 +88,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp\images\cart" />
       <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp" />
     </key>
@@ -91,19 +97,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 8.5.64" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.64" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/zengjiayi2019211001001202_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -214,7 +207,10 @@
       <workItem from="1621159391247" duration="49000" />
       <workItem from="1621159464411" duration="175000" />
       <workItem from="1621159718715" duration="895000" />
-      <workItem from="1621160648512" duration="2763000" />
+      <workItem from="1621160648512" duration="4016000" />
+      <workItem from="1621402322678" duration="408000" />
+      <workItem from="1621772955686" duration="2387000" />
+      <workItem from="1621775433709" duration="360000" />
     </task>
     <task id="LOCAL-00001" summary="HW-Week8 Commit">
       <created>1619449571657</created>
@@ -230,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620579412763</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HW-Week 11 Commit">
+      <created>1621163461190</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621163461190</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +254,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW-Week8 Commit" />
     <MESSAGE value="HW-Week 9 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW-Week 9 Commit" />
+    <MESSAGE value="HW-Week 11 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW-Week 11 Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
