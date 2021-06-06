@@ -9,11 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d584ed3e-a238-46e8-8c19-276e2101e7bf" name="默认变更列表" comment="HW-Week 13 Commit">
+    <list default="true" id="d584ed3e-a238-46e8-8c19-276e2101e7bf" name="默认变更列表" comment="lab1">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/admin/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/admin/userList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/header.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +77,11 @@
       <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp\lab1\assignment2" />
-      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp\lab1" />
-      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp" />
-      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\target" />
+      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp\WEB-INF\views\admin" />
+      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\java\com\zengjiayi\model" />
+      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\java\com\zengjiayi\dao" />
     </key>
   </component>
   <component name="RunManager">
@@ -212,7 +211,9 @@
       <workItem from="1621772955686" duration="2387000" />
       <workItem from="1621775433709" duration="535000" />
       <workItem from="1622381730917" duration="1405000" />
-      <workItem from="1622646350772" duration="1315000" />
+      <workItem from="1622646350772" duration="5449000" />
+      <workItem from="1622722302996" duration="2575000" />
+      <workItem from="1622981593072" duration="1415000" />
     </task>
     <task id="LOCAL-00001" summary="HW-Week8 Commit">
       <created>1619449571657</created>
@@ -249,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622383125234</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lab1">
+      <created>1622647981625</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622647981625</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +281,8 @@
     <MESSAGE value="HW-Week 11 Commit" />
     <MESSAGE value="HW-Week 12 Commit" />
     <MESSAGE value="HW-Week 13 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW-Week 13 Commit" />
+    <MESSAGE value="lab1" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
