@@ -20,7 +20,7 @@
     <title>Home | E-Shopper</title>
     <link href="<%=basePath%>css/bootstrap.min.css" rel="stylesheet">
     <link href="<%=basePath%>css/font-awesome.min.css" rel="stylesheet">
-    <link href="<%=basePath%>css/prettyPhoto.css" rel="stylesheet">
+    <link hre、、、、、、、、、、、f="<%=basePath%>css/prettyPhoto.css" rel="stylesheet">
     <link href="<%=basePath%>css/price-range.css" rel="stylesheet">
     <link href="<%=basePath%>css/animate.css" rel="stylesheet">
     <link href="<%=basePath%>css/main.css" rel="stylesheet">

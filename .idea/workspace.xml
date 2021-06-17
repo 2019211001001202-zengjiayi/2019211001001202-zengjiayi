@@ -9,9 +9,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d584ed3e-a238-46e8-8c19-276e2101e7bf" name="默认变更列表" comment="lab1">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="d584ed3e-a238-46e8-8c19-276e2101e7bf" name="默认变更列表" comment="lab3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab2/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab2/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab2/YourNameFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab3/CalServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab3/HitCountServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab2/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab2/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab2/YourNameFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab2/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab2/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab2/validate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab2/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab3/CalServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab3/HitCountServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab3/cal.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/orderDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/orderDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/orderList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/orderList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/orderDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/orderDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/admin/orderList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/views/admin/orderList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/zengjiayi2019211001001202-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +76,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/lab3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,17 +91,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp\lab3" />
+      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp\lab2" />
+      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\java\com\lab3" />
+      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\java\com\lab2" />
       <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\java\com" />
-      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp\images\cart" />
-      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp\WEB-INF\views" />
-      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\java\com" />
       <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\webapp\WEB-INF\views\admin" />
       <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\java\com\zengjiayi\model" />
-      <recent name="C:\Users\zengjiayi\IdeaProjects\2019211001001202-zengjiayi\src\main\java\com\zengjiayi\dao" />
     </key>
   </component>
   <component name="RunManager">
@@ -213,7 +234,8 @@
       <workItem from="1622381730917" duration="1405000" />
       <workItem from="1622646350772" duration="5449000" />
       <workItem from="1622722302996" duration="2575000" />
-      <workItem from="1622981593072" duration="1415000" />
+      <workItem from="1622981593072" duration="1857000" />
+      <workItem from="1623924851713" duration="6134000" />
     </task>
     <task id="LOCAL-00001" summary="HW-Week8 Commit">
       <created>1619449571657</created>
@@ -257,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622647981625</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HW-Week14 Commit">
+      <created>1622983209636</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622983209636</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +311,9 @@
     <MESSAGE value="HW-Week 12 Commit" />
     <MESSAGE value="HW-Week 13 Commit" />
     <MESSAGE value="lab1" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab1" />
+    <MESSAGE value="HW-Week14 Commit" />
+    <MESSAGE value="lab3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
